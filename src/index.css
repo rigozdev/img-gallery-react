@@ -1,70 +1,77 @@
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+/* 
+#012030
+#13678A
+#45C4B0
+#9AEBA3
+#DAFDBA
+*/
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+*{
+  padding: 0px;
+  margin: 0px;
+  /* color:  #DAFDBA;  */
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
+.principal-header{
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: #012030; 
+  height: 150px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.title-header{
+  color: #DAFDBA;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.card{
+  width: 18rem;
+  color: #012030;
+  background-color: #9AEBA3 ;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+.images-container{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #13678A;
+  min-height: 63vh;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #45C4B0;
+}
+
+.footer-width{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  background-color: #45C4B0;
+}
+
+@media(min-width:800px){
+
+  .images-container{
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #13678A;
+    min-height: 63vh;
   }
 }
