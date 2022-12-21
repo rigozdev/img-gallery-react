@@ -1,3 +1,5 @@
+
+/* Componente footer */
 const Footer = () => {
     return (
         <footer className="footer-container">
@@ -6,7 +8,6 @@ const Footer = () => {
                 <h6 className="text-footer"><b>creadas con </b></h6>
                 <h6 className="text-footer"><b>conmponentes en react</b></h6>
             </div>
-
         </footer>
     );
 };

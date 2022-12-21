@@ -1,3 +1,5 @@
+
+/* Componente card que recibe como valores 'dinamicos' url, titulo, texto de boton y descripción mediante props */
 const Card = ({ imgUrl = "", cardDesc = "Descripción de Card", cardTitle = "Titulo de Card", textBtn='Text' }) => {
     return (
         <div className="card" >

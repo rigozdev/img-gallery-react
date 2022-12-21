@@ -2,16 +2,7 @@ import Header from "./components/Header";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
 
-// const Header = ({title = "Galería de Imágenes con React"}) => {
-//   return (
-//     <header className="principal-header">
-//       <h1 className="title-header">{title}</h1>
-//     </header>
-//   );
-// };
-
-
-const App = (props) => {
+const App = () => {
 
   // const title = "Galería de Imágenes con React";
   return (
@@ -20,12 +11,9 @@ const App = (props) => {
       </Header>
       <div className="images-container">
         <Card cardTitle="Fotito" cardDesc="Descripción genérica" imgUrl="https://picsum.photos/200" textBtn="Click Aquí"></Card>
-        <Card cardTitle="Fotito" cardDesc="Descripción genérica" imgUrl="https://picsum.photos/200" textBtn="Click Aquí"></Card>
-        <Card cardTitle="Fotito" cardDesc="Descripción genérica" imgUrl="https://picsum.photos/200" textBtn="Click Aquí"></Card>
-        <Card cardTitle="Fotito" cardDesc="Descripción genérica" imgUrl="https://picsum.photos/200" textBtn="Click Aquí"></Card>
-        <Card cardTitle="Fotito" cardDesc="Descripción genérica" imgUrl="https://picsum.photos/200" textBtn="Click Aquí"></Card>
-        
-
+        <Card cardTitle="Fotito" cardDesc="Descripción genérica" imgUrl="https://picsum.photos/190" textBtn="Click Aquí"></Card>
+        <Card cardTitle="Fotito" cardDesc="Descripción genérica" imgUrl="https://picsum.photos/195" textBtn="Click Aquí"></Card>
+        <Card cardTitle="Fotito" cardDesc="Descripción genérica" imgUrl="https://picsum.photos/205" textBtn="Click Aquí"></Card>
       </div>
       <Footer></Footer>
     

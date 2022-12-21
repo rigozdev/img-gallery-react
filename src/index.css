@@ -1,4 +1,5 @@
-/* 
+/*
+Colores utilizados: 
 #012030
 #13678A
 #45C4B0
@@ -6,31 +7,38 @@
 #DAFDBA
 */
 
-*{
+* {
   padding: 0px;
   margin: 0px;
-  /* color:  #DAFDBA;  */
+  font-family: 'Oxygen Mono', monospace;
 }
-.principal-header{
+
+body {
+  min-height: 100vh;
   display: flex;
-  background-color: #012030; 
+  flex-direction: column;
+}
+
+.principal-header {
+  display: flex;
+  background-color: #012030;
   height: 150px;
   width: 100%;
   align-items: center;
   justify-content: center;
 }
 
-.title-header{
+.title-header {
   color: #DAFDBA;
 }
 
-.card{
+.card {
   width: 18rem;
   color: #012030;
-  background-color: #9AEBA3 ;
+  background-color: #9AEBA3;
 }
 
-.images-container{
+.images-container {
   padding-top: 2rem;
   padding-bottom: 2rem;
   display: flex;
@@ -42,16 +50,21 @@
   min-height: 63vh;
 }
 
-.footer-container{
+footer {
+  margin-top: auto;
+}
+
+.footer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 200px;
   background-color: #45C4B0;
+
 }
 
-.footer-width{
+.footer-width {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,9 +73,9 @@
   background-color: #45C4B0;
 }
 
-@media(min-width:800px){
+@media(min-width:800px) {
 
-  .images-container{
+  .images-container {
     padding-top: 2rem;
     flex-wrap: wrap;
     padding-bottom: 2rem;
